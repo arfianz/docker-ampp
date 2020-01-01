@@ -10,7 +10,7 @@ I use docker-compose as an orchestrator.
 
 ## Usage
 ```bash
-docker-compose up -d
+$ docker-compose up -d
 ```
 
 Open phpmyadmin at [http://localhost:8000](http://localhost:8000)
@@ -18,7 +18,9 @@ Open web browser to look at a simple php example at [http://localhost:8001](http
 
 Run mysql client:
 
-- `docker-compose exec db mysql -u root -p` 
+```bash
+$ docker-compose exec db mysql -u root -p
+```
 
 Enjoy !
 
@@ -27,6 +29,16 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## LICENSE
 
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
